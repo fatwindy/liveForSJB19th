@@ -1,11 +1,11 @@
 
 html,body{
-	width:100%;
-	height:100%;
 	margin:0;	
 }
 
+
 .outer{
+	position: relative;
 	width:100%;
 	height:100%;
 	background-image:url("../image/blackBackground.jpg");
@@ -13,29 +13,35 @@ html,body{
 	background-size:cover;
 	background-color:#000000;
 	border-bottom:1px solid #887D7D;
+	padding-bottom: 100px;
+	margin-bottom: 200px;
 }
 
 .title{
 	width:100%;
-	height:200px;
+	height:auto;
 	background-image: url("../image/titlePicMiddle.jpg");
 	background-position:center;
 	background-repeat:no-repeat;
 }
 
 .main{
-	
+	margin-top:30px;
+	padding-top:30px;
 	width:60%;
 	height:auto;
 	margin: 0 auto;
 }
 
 .sponsor{
-	width:100%;
+	position: fixed;
+	bottom: 0;
+	z-index: -1;
 	height:200px;
-	text-align:center;
-	display:inline-block;
+	width: 100%;
+	text-align: center;
 	font-size:30px;
+	padding-bottom: 40px;
 }
 
 #foot{
@@ -47,6 +53,7 @@ html,body{
 }
 
 #word{
+	margin:0;
 	text-align:center;
 	color:#007236;
 	font-family:"等线"," Adobe 黑体 Std R";
@@ -54,3 +61,4 @@ html,body{
 	font-size: 19px; 
 	padding-top: 160px;
 }
+
